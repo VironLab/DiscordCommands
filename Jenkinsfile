@@ -39,7 +39,7 @@ pipeline {
         }
         stage("Docs") {
             steps {
-                sh "./gradlew dokkaHtmlMultiModule";
+                sh "./gradlew dokkaHtml";
                 sh "rm -r /var/www/docs/discordcommands-v1.0.0"
                 sh "mkdir /var/www/docs/discordcommands-v1.0.0"
                 sh "cp -r build/discordcommands-v1.0.0 /var/www/docs/"
