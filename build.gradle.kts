@@ -46,9 +46,6 @@ tasks.dokkaHtml.configure {
 //Define Dependencies for all Modules
 dependencies {
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
-    implementation("org.jetbrains.kotlin:kotlin-serialization")
-    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.4.3")
-    implementation("com.google.inject:guice:5.0.1")
     implementation("net.dv8tion:JDA:4.2.1_256")
 }
 
